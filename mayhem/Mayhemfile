@@ -1,0 +1,6 @@
+project: uni-algo
+target: unialgo-fuzz
+
+cmds:
+    - cmd: ./unialgo-fuzz
+      libfuzzer: true
