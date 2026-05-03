@@ -1,4 +1,4 @@
-FROM debian:bookworm as builder
+FROM debian:bookworm AS builder
 
 RUN apt update && apt install -y clang build-essential
 
